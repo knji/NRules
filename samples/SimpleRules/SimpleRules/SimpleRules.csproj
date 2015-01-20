@@ -34,10 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NRules">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\binaries\NRules\NRules.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
@@ -57,6 +53,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\NRules\NRules.Fluent\NRules.Fluent.csproj">
+      <Project>{b68d0662-bb3b-4183-85f0-e00875a95bb4}</Project>
+      <Name>NRules.Fluent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\NRules\NRules.RuleModel\NRules.RuleModel.csproj">
+      <Project>{898356f3-1b5a-4d70-a20a-544997e30ab7}</Project>
+      <Name>NRules.RuleModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\src\NRules\NRules\NRules.csproj">
+      <Project>{d60c7588-09b6-47da-9459-4c88363e3eae}</Project>
+      <Name>NRules</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

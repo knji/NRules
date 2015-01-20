@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRules", "NRules\NRules.csproj", "{D60C7588-09B6-47DA-9459-4C88363E3EAE}"
 EndProject
@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0E7859
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{3291F96C-266B-4ED5-8B2E-50E32F6FC7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRules", "..\..\samples\SimpleRules\SimpleRules\SimpleRules.csproj", "{A40A15F2-290D-4C18-85BE-D686FE35601E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,12 +84,23 @@ Global
 		{B68D0662-BB3B-4183-85F0-E00875A95BB4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B68D0662-BB3B-4183-85F0-E00875A95BB4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B68D0662-BB3B-4183-85F0-E00875A95BB4}.Release|x86.ActiveCfg = Release|Any CPU
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Debug|x86.ActiveCfg = Debug|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Debug|x86.Build.0 = Debug|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Release|Any CPU.ActiveCfg = Release|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Release|x86.ActiveCfg = Release|x86
+		{A40A15F2-290D-4C18-85BE-D686FE35601E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{08DB9D89-412B-405A-813A-E19261039881} = {5FD32CBA-26E2-46D3-B10A-E6C4133EE341}
 		{B13BAC49-AF13-47E2-95F0-0C2CAF9A0257} = {5FD32CBA-26E2-46D3-B10A-E6C4133EE341}
+		{08DB9D89-412B-405A-813A-E19261039881} = {5FD32CBA-26E2-46D3-B10A-E6C4133EE341}
+		{A40A15F2-290D-4C18-85BE-D686FE35601E} = {3291F96C-266B-4ED5-8B2E-50E32F6FC7F9}
 	EndGlobalSection
 EndGlobal
